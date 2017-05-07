@@ -20,7 +20,7 @@
 		]
 	},
 	"files": [
-		"temp/index.ts"
+		"aot/index.ts"
 	],
 	"exclude": [
 		"node_modules",

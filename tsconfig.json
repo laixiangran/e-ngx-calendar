@@ -9,7 +9,7 @@
 		"noImplicitAny": false,
 		"sourceMap": true,
 		"declaration": true,
-		"rootDir": "temp",
+		"rootDir": "aot",
 		"outDir": "dist",
 		"lib": [
 			"es6",

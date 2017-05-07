@@ -132,6 +132,14 @@ essence-ng2-calendar is a calendar component for Angular.
 
 - `onDeleteSchedule` - 触发该事件删除日程安排，参数$event为该日程安排数据
 
+## Develop
+
+	```shell
+	npm install // 安装依赖包
+	
+	npm start // 启动项目
+	```
+
 # License
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)

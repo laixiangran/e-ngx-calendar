@@ -2,6 +2,26 @@
 
 essence-ng2-calendar is a calendar component for Angular.
 
+## Change Log
+
+### 1.0.0 (2017-05-07)
+
+#### Bug Fixes
+
+无
+
+#### Code Refactoring
+
+无
+
+#### Features
+
+无
+
+#### BREAKING CHANGES
+
+无
+
 ## Usage
 
 1. Install

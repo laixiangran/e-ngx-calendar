@@ -2,26 +2,6 @@
 
 essence-ng2-calendar is a calendar component for Angular.
 
-## Change Log
-
-### 1.0.0 (2017-05-07)
-
-#### Bug Fixes
-
-无
-
-#### Code Refactoring
-
-无
-
-#### Features
-
-无
-
-#### BREAKING CHANGES
-
-无
-
 ## Usage
 
 1. Install
@@ -30,11 +10,13 @@ essence-ng2-calendar is a calendar component for Angular.
 	npm install --save essence-ng2-calendar@latest
 	```
 	
-2. 在index.html引入font-awesome、bootstrap
+2. Set in the .angular-cli.json（@angular/cli）
 
-	```html
-	<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	```json
+    "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css"
+    ]
 	```
 
 3. Add the EssenceNg2CalendarModule

@@ -376,8 +376,8 @@ export class EssenceNg2CalendarComponent implements OnInit {
 	 * @returns {Array<number>}
 	 */
 	creatTenYear(year: number): Array<number> {
-		let tenYear: Array<number> = [],
-			s_year: number = Math.floor((year / 10)) * 10;
+		const tenYear: Array<number> = [];
+		let s_year: number = Math.floor((year / 10)) * 10;
 		for (let i = 0; i < 12; i++) {
 			tenYear.push(s_year);
 			s_year++;

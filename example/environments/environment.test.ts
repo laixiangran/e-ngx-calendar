@@ -5,6 +5,6 @@
  */
 
 export const environment = {
-    production: true,
-    serverHost: '/'
+	production: true,
+	serverHost: '/'
 };

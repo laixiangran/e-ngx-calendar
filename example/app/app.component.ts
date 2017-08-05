@@ -1,15 +1,15 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.scss']
+	selector: 'app-root',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
 
 	schedules: any;
 
-	constructor () {
+	constructor() {
 		this.schedules = [
 			{
 				date: new Date(2017, 4, 6),
@@ -97,21 +97,19 @@ export class AppComponent {
 		]
 	}
 
-	ngOnInit () {}
-
-	onDateChange ($event: Date) {
+	onDateChange($event: Date) {
 		// console.log($event);
 	}
 
-	onAddSchedule ($event: any) {
+	onAddSchedule($event: any) {
 		// console.log($event);
 	}
 
-	onViewAllSchedule ($event: any) {
+	onViewAllSchedule($event: any) {
 		// console.log($event);
 	}
 
-	onViewSchedule ($event: any) {
+	onViewSchedule($event: any) {
 		// console.log($event);
 	}
 }

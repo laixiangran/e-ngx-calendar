@@ -1,3 +1,7 @@
+# 1.2.0 (2017-12-13)
+
+- 将essence-ng2-calendar更名为e-ngx-calendar
+
 # 1.0.2 (2017-06-06)
 
 无

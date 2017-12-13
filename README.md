@@ -1,13 +1,13 @@
-# essence-ng2-calendar
+# e-ngx-calendar
 
-essence-ng2-calendar is a calendar component for Angular.
+基于Angular的简单日历组件。
 
 ## Usage
 
 1. Install
 
 	```shell
-	npm install --save essence-ng2-calendar@latest
+	npm install --save e-ngx-calendar@latest
 	```
 	
 2. Set in the .angular-cli.json（@angular/cli）
@@ -19,13 +19,13 @@ essence-ng2-calendar is a calendar component for Angular.
     ]
 	```
 
-3. Add the EssenceNg2CalendarModule
+3. Add the ENgxCalendarModule
 
 	```typescript
-	import {EssenceNg2CalendarModule} from "essence-ng2-calendar";
+	import {ENgxCalendarModule} from "e-ngx-calendar";
 	@NgModule({
 	    imports: [
-	        EssenceNg2CalendarModule
+	        ENgxCalendarModule
 	    ]
 	})
 	```
@@ -34,15 +34,15 @@ essence-ng2-calendar is a calendar component for Angular.
 
 	```html
 	<h2>显示日程安排</h2>
-    <essence-ng2-calendar [schedules]="schedules"
+    <e-ngx-calendar [schedules]="schedules"
                           (onAddSchedule)="onAddSchedule($event)"
                           (onViewAllSchedule)="onViewAllSchedule($event)"
                           (onViewSchedule)="onViewSchedule($event)"
                           (dateChange)="onDateChange($event)">
-    </essence-ng2-calendar>
+    </e-ngx-calendar>
     
     <h2>不显示日程安排</h2>
-    <essence-ng2-calendar (dateChange)="onDateChange($event)"></essence-ng2-calendar>
+    <e-ngx-calendar (dateChange)="onDateChange($event)"></e-ngx-calendar>
 	```
 
 5. Use in the component

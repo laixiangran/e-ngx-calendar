@@ -1,11 +1,11 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-	selector: 'essence-ng2-calendar',
-	templateUrl: './essence-ng2-calendar.component.html',
-	styleUrls: ['./essence-ng2-calendar.component.scss']
+	selector: 'e-ngx-calendar',
+	templateUrl: './e-ngx-calendar.component.html',
+	styleUrls: ['./e-ngx-calendar.component.scss']
 })
-export class EssenceNg2CalendarComponent implements OnInit {
+export class ENgxCalendarComponent implements OnInit {
 
 	now: Date; // 当前日期
 	calendarData: any; // 初始化的日历数据

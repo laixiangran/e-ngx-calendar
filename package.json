@@ -1,16 +1,16 @@
 {
-	"name": "essence-ng2-calendar",
+	"name": "e-ngx-calendar",
 	"version": "1.0.2",
-	"description": "essence-ng2-calendar is a calendar component for Angular.",
+	"description": "基于Angular的简单日历组件。",
 	"keywords": [
 		"angular2",
 		"calendar",
 		"laixiangran"
 	],
-	"homepage": "https://github.com/laixiangran/essence-ng2-calendar#readme",
+	"homepage": "https://github.com/laixiangran/e-ngx-calendar#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/laixiangran/essence-ng2-calendar.git"
+		"url": "https://github.com/laixiangran/e-ngx-calendar.git"
 	},
 	"author": {
 		"name": "赖祥燃",
@@ -20,7 +20,7 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/laixiangran/essence-ng2-calendar/issues"
+		"url": "https://github.com/laixiangran/e-ngx-calendar/issues"
 	},
 	"scripts": {
 		"release": "gulp prepublish && ngc && npm publish",

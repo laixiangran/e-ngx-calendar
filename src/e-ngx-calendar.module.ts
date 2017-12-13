@@ -5,18 +5,18 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { EssenceNg2CalendarComponent } from './essence-ng2-calendar.component';
+import { ENgxCalendarComponent } from './e-ngx-calendar.component';
 
 @NgModule({
 	imports: [
 		CommonModule
 	],
 	declarations: [
-		EssenceNg2CalendarComponent
+		ENgxCalendarComponent
 	],
 	exports: [
-		EssenceNg2CalendarComponent
+		ENgxCalendarComponent
 	]
 })
-export class EssenceNg2CalendarModule {
+export class ENgxCalendarModule {
 }

@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { EssenceNg2CalendarModule } from '../../src/essence-ng2-calendar.module';
+import { ENgxCalendarModule } from '../../src/e-ngx-calendar.module';
 
 @NgModule({
 	imports: [
 		BrowserModule,
-		EssenceNg2CalendarModule
+		ENgxCalendarModule
 	],
 	declarations: [
 		AppComponent
